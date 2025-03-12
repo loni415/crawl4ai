@@ -21,7 +21,7 @@ async def clean_content():
             ),
         )
         result = await crawler.arun(
-            url="https://en.wikipedia.org/wiki/Apple",
+            url="http://www.ccidthinktank.com/dfiles/wbsk/240520-shuzijingji2024-4.pdf",
             config=config,
         )
         full_markdown_length = len(result.markdown.raw_markdown)
